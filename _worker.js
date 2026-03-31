@@ -7,10 +7,10 @@
 // Default configuration for path mappings
 const DEFAULT_PATH_MAPPINGS = {
 	'/google': {
-		targetDomain: 'dns.google',
-		pathMapping: {
-			'/query-dns': '/dns-query',
-		},
+	  targetDomain: 'dns.google',
+	  pathMapping: {
+	    '/query-dns': '/resolve',   // ✔ 正确的 JSON DoH API
+	  },
 	},
 	'/cloudflare': {
 		targetDomain: 'one.one.one.one',
