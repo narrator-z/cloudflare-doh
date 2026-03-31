@@ -13,7 +13,7 @@ const DEFAULT_PATH_MAPPINGS = {
 	  },
 	},
 	'/cloudflare': {
-		targetDomain: 'one.one.one.one',
+		targetDomain: 'cloudflare-dns.com',
 		pathMapping: {
 			'/dns-query': '/dns-query?ct=application/dns-json',
 		},
