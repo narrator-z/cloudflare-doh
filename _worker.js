@@ -9,13 +9,13 @@ const DEFAULT_PATH_MAPPINGS = {
 	'/google': {
 	  targetDomain: 'dns.google',
 	  pathMapping: {
-	    '/query-dns': '/resolve',   // ✔ 正确的 JSON DoH API
+	    '/dns-query': '/resolve',   // ✔ 正确的 JSON DoH API
 	  },
 	},
 	'/cloudflare': {
 		targetDomain: 'one.one.one.one',
 		pathMapping: {
-			'/query-dns': '/dns-query',
+			'/dns-query': '/dns-query?ct=application/dns-json',
 		},
 	},
 	// Add more path mappings as needed
