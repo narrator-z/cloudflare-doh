@@ -15,7 +15,7 @@ const DEFAULT_PATH_MAPPINGS = {
 	'/cloudflare': {
 		targetDomain: 'cloudflare-dns.com',
 		pathMapping: {
-			'/dns-query': '/dns-query?ct=application/dns-json',
+			'/dns-query': '/dns-query',
 		},
 	},
 	// Add more path mappings as needed
