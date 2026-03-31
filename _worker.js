@@ -9,7 +9,7 @@ const DEFAULT_PATH_MAPPINGS = {
 	'/google': {
 	  targetDomain: 'dns.google',
 	  pathMapping: {
-	    '/dns-query': '/resolve',   // ✔ 正确的 JSON DoH API
+	    '/dns-query': '/dns-query',   // ✔ 正确的 JSON DoH API
 	  },
 	},
 	'/cloudflare': {
